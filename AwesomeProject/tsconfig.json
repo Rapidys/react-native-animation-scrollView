@@ -1,0 +1,13 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "baseUrl": ".",
+//  "files": ["globals.d.ts"],
+  "paths": {
+    "*": [
+      "src/*"
+    ],
+    "@assets/*": [
+      "src/assets"
+    ]
+  }
+}
